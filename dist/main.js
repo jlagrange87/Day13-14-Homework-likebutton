@@ -9,10 +9,10 @@ function start(e){
 		count++
 		console.log(count);
 		if(count === 1) {
-			$btn.html("1 like");
+			$btn.html("1 Like");
 		}	
 		else {
-			$btn.html(count + " likes")
+			$btn.html(count + " Likes")
 		}
 	}
 }

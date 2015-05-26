@@ -1,0 +1,35 @@
+body {
+	background-color:#8C989D;
+}
+.parent-box {
+	margin-top:5%;
+	text-align: center;
+}
+.title {
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	margin: 3% auto;
+}
+#likeButton {
+	color:white;
+	font-size: 22px;
+	height:100px;
+	width:200px;
+	background-color:#6CB9EA;
+	border-style: none;
+	border-radius: 10px;
+	transition: background-color ease .1s;
+}
+#likeButton:focus {
+	outline:none;
+}
+#likeButton:hover{
+	background-color:#4F9AE7;
+	transition: background-color ease .1s;
+	cursor: default;
+}
+#likeButton:active{
+	background-color:#6CB9EA;
+	  transition: background-color ease .1s;
+}
