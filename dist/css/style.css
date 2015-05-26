@@ -20,6 +20,7 @@ body {
 	border-style: none;
 	border-radius: 10px;
 	transition: background-color ease .1s;
+	cursor: default;
 }
 #likeButton:focus {
 	outline:none;
@@ -27,7 +28,6 @@ body {
 #likeButton:hover{
 	background-color:#4F9AE7;
 	transition: background-color ease .1s;
-	cursor: default;
 }
 #likeButton:active{
 	background-color:#6CB9EA;
